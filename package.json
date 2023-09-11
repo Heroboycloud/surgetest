@@ -1,0 +1,21 @@
+{
+  "name": "surgetest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "git-scripts": "^0.6.4",
+    "surge": "^0.23.1"
+  },
+"git": {
+  "scripts": {
+    "pre-push": "surge --project ./ --domain surgetest.surge.sh"
+  }
+}
+}
