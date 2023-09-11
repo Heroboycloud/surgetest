@@ -15,7 +15,7 @@
   },
 "git": {
   "scripts": {
-    "pre-push": "surge --project ./ --domain surgetest.surge.sh"
+    "pre-push": "surge --project ./ --domain akindel_surgetest.surge.sh"
   }
 }
 }
